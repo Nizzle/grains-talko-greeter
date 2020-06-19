@@ -1,0 +1,16 @@
+Talko counter with Mario piezo greeter firmware for Ginkosynthese Grains Eurorack Module.
+More info on the module:
+
+https://www.ginkosynthese.com/product/586901/grains-diy-kit
+https://www.modulargrid.net/e/ginko-synthese-grains-new-panel
+https://nurdspace.nl/Grains
+
+This firmware is basically Talko counter firmware as found on:
+https://www.polaxis.be/download/polaxis-talko-counter-for-ginko-synthese-grains/
+
+But with a little gimmick.
+When a piezo buzzer is added to the Arduino Nano, the module will greet you with a little tune when powered up.
+Code for the tune is a heavily stripped down version of the code found on:
+http://www.linuxcircle.com/2013/03/31/playing-mario-bros-tune-with-arduino-and-piezo-buzzer/
+
+Without the buzzer the module will function just fine.
